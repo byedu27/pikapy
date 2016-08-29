@@ -85,7 +85,7 @@ def accept_tos(username, password):
         try:
             api = PGoApi()
             #Set spawn to NYC
-            api.set_position(40.7127837, -74.005941, 0.0)
+            api.set_position(38.9849691, -3.9281001, 0.0)
             api.login('ptc', username, password)
             time.sleep(0.5)
             req = api.create_request()
